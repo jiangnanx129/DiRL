@@ -5,7 +5,7 @@ This repository contains the official implementation of **DiRL**, a Direction-Aw
 DiRL is motivated by a simple observation: not all exploration is equally useful for reasoning. Existing exploration methods often encourage diversity in semantic or gradient spaces, but they do not distinguish whether the diversity comes from genuine reasoning or from memorization-driven variations. DiRL addresses this limitation by anchoring exploration to an internal **reasoning–memorization direction** extracted from the model's residual stream. This direction is then used to guide reward shaping during reinforcement learning, encouraging reasoning-aligned exploration while suppressing memorization-aligned shortcuts.
 
 <p align="center">
-  <img src="intro7.pdf" width="90%">
+  <img src="intro7.png" width="90%">
 </p>
 
 <p align="center">
